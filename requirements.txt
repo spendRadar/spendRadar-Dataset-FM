@@ -1,0 +1,18 @@
+# 공통 (지표 계산)
+pandas>=2.2
+numpy
+
+# 파운데이션 모델 (GPU 권장, Colab T4에서 검증) — scripts/colab_setup.sh가 아래를 설치
+timesfm[torch]==3.0.2          # TimesFM 2.5 코드 포함
+chronos-forecasting>=2.2       # Chronos-2
+gluonts
+jaxtyping
+lightning
+einops
+einx
+CoLT5-attention
+beartype
+utilsforecast
+absl-py
+# uni2ts(Moirai 2.0)는 torch 버전 고정 문제로 의존성 없이 설치: pip install --no-deps uni2ts==2.0.0
+# FinCast: git clone https://github.com/vincent05r/FinCast-fts.git third_party/FinCast-fts

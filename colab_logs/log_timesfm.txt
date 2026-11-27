@@ -1,0 +1,5 @@
+시계열 10,488개 | 사용자 1,311명 | 입력 길이 [96] | 예측 길이 24 | 단위 M | MASE 시차 m=12
+device cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[저장] /content/sr/results/predictions/pred_TimesFM2.5.csv  (10,488개 시계열 × 24기간)
+OK timesfm
